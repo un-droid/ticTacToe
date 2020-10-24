@@ -1,0 +1,11 @@
+.settingsContainer{
+    padding: 10px;
+    .settingRow{
+        label{
+            width: 200px;
+        }
+        select{
+            width: 100px;
+        }
+    }
+}

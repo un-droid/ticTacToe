@@ -1,0 +1,10 @@
+<div class="settingsContainer">
+  <div class="settingRow">
+    <label >Set starting player</label>
+    <select [(ngModel)]="startingSelectedPlayer" (change)="onPlayerChange($event.target.value)">
+      <option *ngFor="let title of playersList" [value]="title">
+        {{title}}
+      </option>
+    </select>
+  </div>
+</div>

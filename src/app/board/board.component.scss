@@ -1,0 +1,20 @@
+#header-container{
+    padding: 20px;
+    button{
+        outline: none;
+        border: 0;
+        padding: 3px 10px;
+        margin-right: 10px;
+    }
+}
+
+.square-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 5px;
+    justify-content: center;
+    margin-top: 40px;
+    app-square{
+        height: 200px;
+    }
+}

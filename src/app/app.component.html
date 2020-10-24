@@ -1,0 +1,10 @@
+<nav class="main-nav navbar navbar-expand navbar-light bg-light">
+  <!-- <h3>{{title}}</h3> -->
+  <ul class="nav">
+    <li><a [routerLink]="['/gameBoard']" class="nav-link">Game</a></li>
+    <li><a [routerLink]="['/settings']" class="nav-link">Settings</a></li>
+  </ul>
+  <span id="currentScore">{{score}}</span>
+</nav>
+
+  <router-outlet></router-outlet>
